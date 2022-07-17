@@ -5,12 +5,11 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>VRPC Tests</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script type="text/javascript" src="js/func.js"></script>
 	</head>
 	
 	<body style=" display: flex; justify-content: center;">
 		<form name="select">
-			<select id="test" name="test" onChange="showTestSelected()">
+			<select id="test" name="test" onchange="showTestSelected()">
 				<option value="-1" disabled selected>Escolha um teste...</option>
 				<option value="A-n32-k5">A-n32-k5</option>
 				<option value="A-n33-k5">A-n33-k5</option>
@@ -45,5 +44,7 @@
 		<div id="gap" style="width: 100%; height: 30px;"></div>
 		<div id="showTest"></div>
 		<div id="resultTest"></div>
+
+		<script type="text/javascript" src="./js/func.js"></script>
 	</body>
 </html>
